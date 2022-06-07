@@ -1,8 +1,2 @@
-from main import add
-
-
-def test_add_function():
-    ret= add(1,2)
-
-    assert(ret == 3)
-
+def add_one(number):
+    return number + 1
